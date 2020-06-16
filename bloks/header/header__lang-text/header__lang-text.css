@@ -1,0 +1,12 @@
+.header__lang-text {
+    margin-right: 18px;
+  }
+  
+  .header__lang-text:last-child {
+    margin-right: 0;
+    
+  }
+  
+  .header__lang-text:first-child {
+    text-decoration: underline;
+  }

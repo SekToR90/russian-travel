@@ -1,0 +1,25 @@
+.footer__author {
+    margin: 0 0 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+
+    @media screen and (max-width: 768px) {
+        .footer__author {
+            font-size: 2.083vw;
+            line-height: 2.083vw;
+          }
+    }  
+
+    @media screen and (max-width: 320px) {
+        .footer__author {
+            align-self: flex-start;
+            font-size: 14px;
+            line-height: 14px;
+          }
+    }  
