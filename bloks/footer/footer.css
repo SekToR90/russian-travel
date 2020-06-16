@@ -1,0 +1,107 @@
+/* Блок footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 92px 48px 0;
+    max-width: 1184px;
+    min-width: 118px;
+  }
+  
+  .footer__links {
+    display: flex;
+    list-style: none;
+    margin:  0 0 24px;
+    padding: 0;
+    
+  }
+  
+  .footer__list{
+    margin-right: 18px;
+    
+  }
+
+  .footer__list:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .footer__link {
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF; 
+  }
+  
+  .footer__link:hover {
+    opacity: 0.8;
+  }  
+  
+  .footer__link:last-child {
+    margin-right: 0;
+  }
+  
+  .footer__author {
+    margin: 0 0 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+
+    @media screen and (max-width: 1024px) {
+        .footer {
+            max-width: 928px;
+          }
+}
+    @media screen and (max-width: 768px) {
+        .footer {
+            padding: 88px 24px 0;
+            max-width: 720px;
+          }
+
+          .footer__link {
+            font-size: 2.083vw;
+            line-height: 2.344vw;
+          }
+          
+          .footer__list{
+            margin-right: 18px;  
+          }
+          .footer__author {
+            font-size: 2.083vw;
+            line-height: 2.083vw;
+          }
+}  
+
+    @media screen and (max-width: 320px) {
+        .footer {
+            flex-direction: column;
+            padding: 64px 0 0 16px;
+            max-width: 186px;
+        }
+        .footer__links {
+            flex-direction: column;
+            margin:  0 0 48px;
+          }
+
+          .footer__link {
+            font-size: 24px;
+            line-height: 24px;
+          }
+
+        .footer__list{
+            margin: 0 0 32px;  
+          }
+          
+          .footer__author {
+            align-self: flex-start;
+            font-size: 14px;
+            line-height: 14px;
+          }
+}   

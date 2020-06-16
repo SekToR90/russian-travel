@@ -1,0 +1,115 @@
+
+.lead {
+    margin: 0 auto 0;
+    display: flex;
+    padding-top: 56px;
+    max-width: 984px;
+    min-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    }
+  
+  .lead__title {
+    margin: 0;
+    max-width: 720px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .lead__subtitle {
+    margin: 0;
+    max-width: 640px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .lead__image {
+    width: 100%;
+    padding-bottom: 8px;
+    object-fit: cover;
+  }
+  
+  .lead__caption {
+   align-self: start;
+   margin: 0;
+   font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 10px;
+   line-height: 14px;
+   letter-spacing: 0.15em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .lead__title {
+      font-size: 9.375vw;
+    }
+
+    .lead {
+        margin: 0 48px 0;
+        padding-top: 48px;
+        max-width: 928px;
+    }
+
+      .lead__subtitle {
+        padding-top: 32px;
+        padding-bottom: 56px;
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .lead__title {
+      font-size: 12.500vw;
+    }
+
+    .lead {
+        max-width: 768px;
+        margin: 0;
+    }
+
+    .lead__caption {
+     margin-left: 24px;  
+    }
+}
+    
+
+  @media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+        margin: 0;
+    }
+      
+      .lead__title {
+        max-width: 288px;
+        font-weight: 900;
+        font-size: 12.5vw;
+        line-height: 44px;
+    }
+      
+      .lead__subtitle {
+        max-width: 288px;
+        padding-top: 16px;
+        padding-bottom: 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+          
+      .lead__caption {
+        margin-left: 16px;
+    }
+  }
+     

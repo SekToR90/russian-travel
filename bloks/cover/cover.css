@@ -1,0 +1,121 @@
+/* Блок cover */
+.cover {
+    padding-top: 92px;
+  }
+  
+  .cover__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 1184px;
+    min-width: 320px;
+    margin: 0 auto 0;
+    text-decoration: none;
+  }
+  
+  .cover__link:hover .cover__overlay{
+    opacity: 0.8;
+    }
+  
+  .cover__title {
+    max-width: 560px;
+    margin: 245px 0 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 20;
+  }
+  
+  .cover__subtitle {
+    max-width: 360px;
+    margin: 32px 0 245px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 20;
+  }
+  
+  .cover__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2A2C2F;
+    opacity: 0.3;
+    z-index: 10;
+  }
+  
+  .cover__background {
+    background-image: url(../../images/cover-trains.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .cover__link {
+        max-width: 1184px;
+        margin: 0;
+    }
+    .cover__title {
+        margin: 195px 0 0;
+     }
+      
+      .cover__subtitle {
+        margin: 32px 0 195px;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-top: 88px;
+      }
+
+    .cover__link {
+        max-width: 768px;
+        margin: 0;
+    }
+    .cover__title {
+        font-size: 9.375vw;
+        margin: 115px 0 0;
+     }
+      
+      .cover__subtitle {
+        max-width: 360px;
+        margin: 32px 0 115px;
+      }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        padding-top: 64px;
+      }
+
+    .cover__link {
+        max-width: 320px;
+        margin: 0;
+    }
+    .cover__title {
+        max-width: 79.7vw;
+        margin: 33px 0 0;
+        font-size: 32px;
+        line-height: 35px;
+     }
+      
+      .cover__subtitle {
+        max-width: 85.313vw;
+        margin: 16px 0 33px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+}  

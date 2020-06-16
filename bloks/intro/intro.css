@@ -1,0 +1,75 @@
+/* Блок intro */
+.intro {
+    padding-top: 92px;
+    padding-left: 148px;
+    display: flex;
+    flex-direction: column;
+    max-width: 690px;
+  }
+  
+  .intro__title {
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: #FFFFFF;
+  }
+  
+  .intro__text {
+    margin: 40px 0 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+  
+  .intro__list {
+    margin: 32px 0 0;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    list-style: none;
+  }
+  
+  .intro__list-bold {
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .intro {
+        padding-left: 48px;
+      }
+}
+
+  @media screen and (max-width: 768px) {
+    .intro {
+        padding: 88px 24px 0;
+        max-width: 790px;
+    }
+}  
+
+  @media screen and (max-width: 320px) {
+    .intro {
+        padding: 64px 16px 0;
+        max-width: 288px;
+      }
+      
+      .intro__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+      }
+      
+      .intro__text {
+        font-size: 16px;
+        line-height: 26px; 
+      }
+}
