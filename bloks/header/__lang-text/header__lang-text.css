@@ -1,0 +1,10 @@
+@import url(./_active/header__lang-text_active.css);
+
+.header__lang-text {
+    margin-right: 18px;
+  }
+  
+  .header__lang-text:last-child {
+    margin-right: 0;
+    
+  }
