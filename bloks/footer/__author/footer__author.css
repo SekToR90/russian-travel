@@ -20,5 +20,6 @@
         .footer__author {
             align-self: flex-start;
             line-height: 14px;
+            font-size: 14px;
           }
     }  
